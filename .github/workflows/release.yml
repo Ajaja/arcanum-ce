@@ -48,7 +48,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: arcanum-ce-android
-          path: os/android/app/build/outputs/apk/release/
+          path: android/app/build/outputs/apk/release/
           if-no-files-found: error
           
   windows:
